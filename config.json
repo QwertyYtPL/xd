@@ -32,7 +32,7 @@
         "hw-aes": null,
         "priority": null,
         "memory-pool": true,
-        "yield": true,
+        "yield": false,
         "asm": true,
         "argon2-impl": null,
         "astrobwt-max-size": 550,
@@ -95,7 +95,7 @@
         "rx/keva": "rx/wow"
     },
     "opencl": {
-        "enabled": false,
+        "enabled": true,
         "cache": true,
         "loader": null,
         "platform": "AMD",
@@ -105,7 +105,7 @@
         "panthera": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "astrobwt": false,
