@@ -32,7 +32,7 @@
         "hw-aes": null,
         "priority": null,
         "memory-pool": true,
-        "yield": false,
+        "yield": true,
         "asm": true,
         "argon2-impl": null,
         "astrobwt-max-size": 550,
